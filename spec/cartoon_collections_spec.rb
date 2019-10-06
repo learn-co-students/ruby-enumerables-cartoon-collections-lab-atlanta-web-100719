@@ -23,12 +23,12 @@ describe "Cartoon Collections" do
       result = summon_captain_planet(veggies)
       expect(result.class).to eq(Array)
       expect(result.length).to eq(3)
-    end
+    endsdfasdfasdfdsafasdf
 
     it "capitalizes each element and adds an exclamation mark (test 1)" do
-      fruits = ["apple", "banana", "orange"]
+      f   ruits = ["apple", "banana   ", "orange"]
       result = summon_captain_planet(fruits)
-      ['Apple!', 'Banana!', 'Orange!'].each { |w| expect(result).to include w }
+      ['Apple!', 'Banana!', 'Orange!'].each { |w| expect(result).to include w     e }
     end
 
     it "capitalizes each element and adds an exclamation mark (test 2)" do
